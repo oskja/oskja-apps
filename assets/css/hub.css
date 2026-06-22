@@ -1,0 +1,32 @@
+/* app list */
+.app-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: #faf9ff;
+  margin-top: 16px;
+  border: 1px solid #eee;
+}
+
+.app-card:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.app-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.app-title {
+  font-weight: 600;
+}
+
+.app-desc {
+  font-size: 0.9rem;
+  color: #777;
+}
